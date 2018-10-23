@@ -5,6 +5,7 @@ header {
 
 header > div {
   display: inline-flex;
+  position: relative;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
