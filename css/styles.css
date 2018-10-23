@@ -23,6 +23,11 @@ header > div {
   justify-content: center;
   align-items: baseline; }
 
+.karfa {
+  position: absolute;
+  right: 10px;
+  align-self: center; }
+
 /*header ul{
   display: flex;
   justify-content: center;
