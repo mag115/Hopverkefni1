@@ -13,12 +13,9 @@ header > div {
   justify-content: center;
 }*/
 section > div {
-  display: flex;
-  flex-wrap: wrap; }
-
-section > div {
   display: inline-flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  flex-grow: 1; }
 
 a {
   text-decoration: none;
@@ -54,7 +51,7 @@ ul {
   list-style: none; }
 
 img {
-  max-width: 100px; }
+  max-width: 300px; }
 
 h1 {
   font-size: 60px;
