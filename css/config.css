@@ -14,10 +14,6 @@ header > div {
   right: 10px;
   align-self: center; }
 
-/*header ul{
-  display: flex;
-  justify-content: center;
-}*/
 section > div {
   display: inline-flex;
   flex-wrap: wrap;
@@ -29,7 +25,7 @@ a {
 
 footer {
   background-color: #cc9694;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%; }
 
