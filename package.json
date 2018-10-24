@@ -4,12 +4,20 @@
   "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
   "main": "index.js",
   "dependencies": {
-    "node-sass": "^4.9.4"
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.9.4",
+    "npm": "^6.4.1",
+    "run-all": "^1.0.1",
+    "stylelint": "^9.6.0",
+    "stylelint-config-primer": "^2.2.11"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w scss -o css"
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "node-sass --source-map-embed styles.scss styles.css",
+    "sass-watch": "node-sass -r --source-map-embed -w styles.scss styles.css",
+    "dev": "npm-run-all --parallel sass sass-watch browser-sync",
+    "lint": "stylelint styles.scss --syntax scss"
   },
   "repository": {
     "type": "git",
