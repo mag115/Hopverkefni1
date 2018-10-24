@@ -1,1 +1,17 @@
 @import "scss/config";
+img {
+  max-width: 300px;
+}
+section > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+section > div > div {
+  position: relative;
+  width: 50%;
+}

@@ -1,0 +1,40 @@
+@import "scss/config";
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #cc9694;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer > div{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 120px;
+}
+
+footer div div {
+  padding: 20px;
+}
+
+footer li:first-child {
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,23 @@
+@import "scss/config";
+header {
+  background-color: #afb281;
+}
+
+.valmynd {
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items:baseline;
+}
+
+.valmynd__karfa {
+  position: relative;
+  right: 10px;
+  align-self: center;
+}
+
+h1 {
+  text-align: center;
+}
