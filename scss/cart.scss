@@ -11,9 +11,10 @@
   padding: 10px;
   flex-grow: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   margin-left: 9%;
+  max-height: 400px;
 }
 .KarfaSida--hlutir--texti{
   max-width: 50%;
@@ -21,7 +22,6 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   float:right;
 }
 .KarfaSida--hlutir--senda{
