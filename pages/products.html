@@ -6,19 +6,22 @@
     <title>Vörur</title>
 
     <link rel="stylesheet" href="../grid.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
     <header>
       <h1>Vöruhúsið</h1>
-      <div class="">
-        <h2><a href="../index.html">Forsíða</a></h2>
-        <h2><a href="products.html">Vörur</a></h2>
-        <h2><a href="about.html">Starfsfólk</a></h2>
-        <div class="karfa">
-          <h3><a href="Cart.html">Karfa</a></h3>
-        </div>
-      </div>
+        <nav class="valmynd">
+          <ul class="valmynd__listi">
+            <li><a href="../index.html">Forsíða</a></li>
+            <li><a href="products.html">Vörur</a></li>
+            <li><a href="about.html">Starfsfólk</a></li>
+            <span class="valmynd__karfa"><li>
+                <a href="Cart.html">Karfa(3)<img class="cart" src="../img/cart.svg" alt="cart"></a>
+              </li>
+            </span>
+          </ul>
+        </nav>
     </header>
 
     <div class="">
@@ -120,8 +123,8 @@
     </div>
 
     <footer>
-      <div class="">
-        <div class="">
+      <nav class="fotur">
+        <div class="fotur--listi">
           <ul>
             <li>Vöruflokkar</li>
             <li>Nauðsynjavörur</li>
@@ -131,8 +134,9 @@
             <li>Magnaðar vörur</li>
           </ul>
         </div>
-        <div class="">
+        <div class="fotur--listi">
           <ul>
+
             <li>Vöruflokkar</li>
             <li>Trylltar vörur</li>
             <li>Geggjaðar vörur</li>
@@ -141,7 +145,7 @@
             <li>Klikkaðar vörur</li>
           </ul>
         </div>
-        <div class="">
+        <div class="fotur--listi">
           <ul>
             <li>Vöruflokkar</li>
             <li>Nýjar vörur</li>
@@ -149,7 +153,7 @@
             <li>Skrítnar vörur</li>
           </ul>
         </div>
-        <div class="">
+        <div class="fotur--listi">
           <ul>
             <li>Síður</li>
             <li>Allar vörur</li>
@@ -157,7 +161,7 @@
             <li>Karfa</li>
           </ul>
         </div>
-      </div>
+      </nav>
       <p>© 2018 Vöruhúsið</p>
     </footer>
   </body>
