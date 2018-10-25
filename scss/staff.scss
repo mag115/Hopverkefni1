@@ -7,7 +7,7 @@
   padding-right: 120px;
 }
 
-.myndir-starfsfolk {
+/*.myndir-starfsfolk {
   flex: 25%;
   width: 300px;
   max-width: 50%;
@@ -18,21 +18,26 @@
   margin-top: 8px;
   vertical-align: middle;
 }
-
-@media screen and (max-width: 800px) {
-  .myndir-starfsfolk {
-    flex: 50%;
-    max-width: 50%;
-  }
+*/
+.myndir-starfsfolk img {
+  max-width: 600px;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
+.row div {
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .myndir-starfsfolk img {
     max-width: 100%;
   }
 }
 
-.myndir-starfsfolk > img {
+@media screen and (max-width: 600px) {
+  .myndir-starfsfolk img {
+    max-width: 100%;
+  }
+}
+.myndir-starfsfolk img {
   padding-bottom: 20px;
 }
