@@ -3,11 +3,17 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   padding-left: 70px;
+=======
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 50%;
+>>>>>>> 30040df265c30b883ec7582a15ba171ba6f69930
 }
 
 .myndir-starfsfolk img {
-  max-width: 600px;
+  max-width: 100%;
 }
 
 .row div {
