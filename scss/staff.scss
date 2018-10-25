@@ -3,13 +3,8 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
-  padding-left: 70px;
-=======
   padding-left: 120px;
   padding-right: 120px;
-  max-width: 50%;
->>>>>>> 30040df265c30b883ec7582a15ba171ba6f69930
 }
 
 .myndir-starfsfolk img {
@@ -18,6 +13,7 @@
 
 .row div {
   padding: 10px;
+  width: 50%;
 }
 
 @media screen and (max-width: 800px) {
