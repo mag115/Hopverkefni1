@@ -1,19 +1,36 @@
 @import "scss/config";
 img {
-  max-width: 300px;
+  max-width: 100%;
 }
-section > div {
-  display: inline-flex;
+.forsida--menu {
+  max-width: 1200px;
+  display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
   width: 100%;
   align-items: center;
   justify-content: center;
-}
+  }
 
-section > div > div {
+.forsida--menu div {
   position: relative;
   width: 50%;
+  padding: 1%;
+}
+
+.forsida div:nth-child(2) {
+  flex-direction: row-reverse;
+}
+.forsida__botton {
+  background-color: #cc9694;
+  border: none;
+  padding: 10px 5px;
+  width: 200px;
+}
+
+.forsida--texti div {
+  padding: 10px 0px;
+  width: 100%;
 }
 
 p {
