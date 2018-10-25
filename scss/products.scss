@@ -2,7 +2,7 @@
 
 
 
-.Vörur-hlutir img{
+.Vörur--hlutir img{
   max-width: 386px;
 }
 
@@ -15,13 +15,20 @@
   padding-left: 130px;
 }
 
-.Vörur-hlutir p {
-  font-size: 10px;
+.Vörur--hlutir p {
+  font-size: 14px;
   word-wrap: break-word;
 }
 
-.Vörur-hlutir {
+.Vörur--hlutir {
   max-width: 400px;
   padding: 10px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fjöldi {
+  max-width: 40px;
 }
