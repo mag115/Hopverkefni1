@@ -8,6 +8,7 @@
     "node-sass": "^4.9.4",
     "npm": "^6.4.1",
     "run-all": "^1.0.1",
+    "sass-watch": "^0.1.0",
     "stylelint": "^9.6.0",
     "stylelint-config-primer": "^2.2.11"
   },
@@ -15,7 +16,7 @@
   "scripts": {
     "browser-sync": "browser-sync start --server --files index.html styles.css",
     "sass": "node-sass --source-map-embed styles.scss styles.css",
-    "sass-watch": "node-sass -r --source-map-embed -w styles.scss styles.css",
+    "sass-watch": "node-sass --source-map-embed --watch --recursive styles.scss styles.css",
     "dev": "npm-run-all --parallel sass sass-watch browser-sync",
     "lint": "stylelint styles.scss --syntax scss"
   },
