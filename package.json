@@ -4,6 +4,7 @@
   "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
   "main": "index.js",
   "dependencies": {
+    "ajv": "^6.5.4",
     "browser-sync": "^2.26.3",
     "node-sass": "^4.9.4",
     "npm": "^6.4.1",
