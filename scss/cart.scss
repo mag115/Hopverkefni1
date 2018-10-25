@@ -1,7 +1,26 @@
 @import "scss/config";
 .karfa-text-1{
-  margin:15px;
+margin:15px;
+margin-left: 9%;
 }
 .karfa-mynd-ur {
   width: 360px;
+  float: left;
+  margin-left: 9%;
+}
+
+.karfa-menu{
+  width: 100%;
+ display: grid;
+  margin-bottom: 40px;
+
+}
+.karfa-menu2{
+  display: grid;
+  width: 100%;
+}
+.karfa-myndir-heyrnatol{
+  width: 360px;
+  float: left;
+  margin-left: 9%;
 }
