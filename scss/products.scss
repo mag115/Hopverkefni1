@@ -1,0 +1,27 @@
+@import "scss/config";
+
+
+
+.Vörur-hlutir img{
+  max-width: 386px;
+}
+
+.Vörur {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 10px;
+  padding-left: 130px;
+}
+
+.Vörur-hlutir p {
+  font-size: 10px;
+  word-wrap: break-word;
+}
+
+.Vörur-hlutir {
+  max-width: 400px;
+  padding: 10px;
+  flex-grow: 1;
+}

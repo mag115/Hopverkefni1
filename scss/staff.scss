@@ -1,1 +1,31 @@
 @import "scss/config";
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.myndir-starfsfolk img {
+  max-width: 600px;
+}
+
+.row div {
+  padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .myndir-starfsfolk img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myndir-starfsfolk img {
+    max-width: 100%;
+  }
+}
+.myndir-starfsfolk img {
+  padding-bottom: 20px;
+}
