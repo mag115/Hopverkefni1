@@ -1,5 +1,28 @@
-
 # Hópverkefni 1
+
+Hópverkefni í Vefforritun 1 haustið 2018.
+
+# Til þess að setja upp verkefnið
+
+1. Instala þarf bæði npm og node.js
+2. npm install browser-sync
+3. npm install sass
+4. npm install sass-Watch
+5. npm install dev
+6. npm install lint
+7. npm run sass-watch og þá er verkefnið tilbúið til notkunnar
+
+# verkefnið
+
+Smíðuðum vef eftir froskrift. Verkefnið var unnið í gegnum GitHub. Byrjuðum á að gera haus og fót og fórum svo að gera síðurnar, enduðum á að gera scss skrárnar. Skiptum scss skránum niður í sér skrá fyrir fót, haus, forsíðu, vorusíðu, starfsmannasíðu og körfusíðu. Þessar síður eru svo tengdar við styles.scss skránna sem býr svo til styles.css skrá.
+
+# Nemendur í verkefninu
+
+* Matthías Garðarsson - CEO - mag115
+* Björgvin Júlíus Ásgeirsson - bja23
+* Birkir Þór Baldursson - btb4
+
+# Hópverkefni 1 (Gamla verkefnalýsingin)
 
 Verkefnið felst í því að smíða vef eftir forskrift.
 
