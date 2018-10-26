@@ -22,17 +22,15 @@ header h1 {
   position: relative;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
-  align-items:center;
   padding-top: 10px;
   padding-bottom: 10px;
     &__listi {
-      margin-left: 39%;
-      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       list-style: none;
+      margin-left: 25%;
+      width: 50%;
       @media (max-width: 599px) {
         flex-wrap: wrap;
         margin-left: 0%;
@@ -49,21 +47,21 @@ header h1 {
   }
 }
 
-.valmynd__karfa {
+.valmynd--karfa {
   display: flex;
-  flex-wrap: wrap;
-  width: 64%;
   justify-content: flex-end;
+  padding: 10px;
   align-items: center;
+  width: 25%;
   & li {
     text-transform: none;
     min-width: 100px;
     align-self: flex-end;
   }
-  @media (max-width: 799px){
+  @media (max-width: 599px){
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 100vw;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -75,8 +73,10 @@ header h1 {
   max-width: 20px;
 }
 
-.valmynd__karfa a {
+.valmynd--karfa a {
   display: flex;
+  flex-flow: row;
+  min-width: 100px;
   align-items: center;
 }
 

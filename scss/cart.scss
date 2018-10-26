@@ -1,98 +1,12 @@
 @import "scss/config";
-/*.KarfaSida {
+.containerKarfa {
   display: flex;
-  flex-direction: column;
+  margin: 0 auto;
   max-width: 1200px;
 }
-.karfa-text-1{
-  margin-top: 2%;
-  margin-left: 10%;
-}
-.KarfaSida--hlutir img{
-  max-width: 386px;
-  display: flex;
-  flex-direction: column;
-}
-.KarfaSida--hlutir p {
-  font-size: 14px;
-  word-wrap: break-word;
-}
-.KarfaSida--hlutir {
-  max-width: 100%;
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 9.3%;
-  max-height: 400px;
-}
 
-
-.KarfaSida--hlutir--texti{
-  max-width: 50%;
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  min-width: 100%;
-}
-.KarfaSida--hluti--texti--nedri{
-  margin-top: 64%;
-}
-.karfaSida--hlutir--texti--nedri--botn{
-  padding: 0px;
-display: flex;
-justify-content: space-between;
-}
-.karfaSida--hlutir--texti--nedri--botn button {
-  width: 110px;
-}
-.Upplysingar{
-  margin-top:3%;
-}
-.Upplysingar label {
-  font-size: 14px;
-  word-wrap: break-word;
-}
-.Upplysingar input {
-  width: 30px;
-  padding-right: 120px;
-}
-.KarfaSida--takki{
-  margin: 3%;
-  margin-left: 43.3%;
-}
-.KarfaSida--takki button:hover {
-  color: #cc9694;
-  background-color: black;
-  transition: 0.3s;
-}
-.karfaSida--hlutir--texti--nedri--botn button:hover{
-  background-color: #cc9694;
-  transition: 0.3s;
-}
-/*.KarfaSida--hlutir--senda{
-  max-width: 50%;
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  float:left;
-}
-/*.KarfaSida--hlutir--greida{
-  max-width: 50%;
-  padding: 10px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-*/
 .KarfaSida {
   display: flex;
-  max-width: 1200px;
   flex-direction: column;
   margin: $gutter;
 }
@@ -103,5 +17,132 @@ justify-content: space-between;
 
 .karfa--menu {
   display: flex;
+  flex-wrap: wrap;
+}
 
+.karfa--menu > div {
+  padding: 10px;
+}
+
+.karfa-text-1{
+  padding: 10px;
+}
+
+.fjöldi--takkar {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 20px;
+}
+
+.karfa--menu--texti {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 70%;
+  min-width: 60%;
+}
+
+.Upplysingar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:20px;
+}
+
+.Upplysingar div {
+  padding: 10px;
+}
+
+#cart {
+  max-width: 12px;
+  position: relative;
+  right: 5px;
+}
+
+.klara--takkar {
+  display: flex;
+}
+
+.takkar {
+  display: flex;
+  min-width: 150px;
+}
+
+#uppfæra {
+  display: flex;
+  min-width: 125px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  left: 5px;
+  background-color: white;
+  border-bottom: solid 2px black;
+}
+
+#setjaKarfa {
+  display: flex;
+  min-width: 125px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
+  background-color: white;
+  border-bottom: solid 2px black;
+}
+
+.Nafn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Heimilisfang {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Postnumer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Kortanumer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Korthafi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Gildistimi {
+  display: flex;
+  justify-content: space-around;
+}
+
+#setjaKarfa:hover {
+  background-color: #cc9694;
+  transition: 0.3s;
+}
+
+#uppfæra:hover {
+  background-color: #cc9694;
+  transition: 0.3s;
+}
+
+.SendingarUpplysingar h2 {
+  padding: 10px;
+
+}
+
+.GreiðsluUpplýsingar h2 {
+  padding:10px;
+}
+
+#verdKarfa {
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
