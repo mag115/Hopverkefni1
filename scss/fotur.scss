@@ -34,3 +34,33 @@ footer p {
     padding-bottom: 10px;
   }
 }
+
+.fotur--listi {
+  color: #fcffd2;
+}
+
+.fotur--listi li:first-child {
+  color: black;
+}
+
+.fotur--listi li:hover {
+  color: black;
+  transition: 0.5s;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.fotur a {
+    color: #fcffd2;
+}
+
+.fotur a:hover {
+  color: black;
+  transition: 0.5s;
+}
