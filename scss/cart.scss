@@ -4,12 +4,17 @@
   flex-direction: column;
 }
 .karfa-text-1{
-  margin-left: 9%;
+  margin-top: 2%;
+  margin-left: 10%;
 }
 .KarfaSida--hlutir img{
   max-width: 386px;
   display: flex;
   flex-direction: column;
+}
+.KarfaSida--hlutir p {
+  font-size: 14px;
+  word-wrap: break-word;
 }
 .KarfaSida--hlutir {
   max-width: 400px;
@@ -28,6 +33,27 @@
   display: flex;
   flex-direction: column;
   min-width: 100%;
+}
+.KarfaSida--hluti--texti--nedri{
+  margin-top: 65%;
+}
+.karfaSida--hlutir--texti--nedri--botn{
+  padding: 0px;
+display: flex;
+justify-content: space-between;
+}
+.Upplysingar{
+  margin-top:3%;
+}
+.Upplysingar label {
+  font-size: 14px;
+  word-wrap: break-word;
+}
+.KarfaSida--takki{
+  margin: 3%;
+  margin-left: 43.3%;
+}
+.karfaSida--hlutir--texti--nedri--botn{
 }
 /*.KarfaSida--hlutir--senda{
   max-width: 50%;
