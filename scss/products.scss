@@ -3,7 +3,7 @@
 
 
 .Vörur--hlutir img{
-  max-width: 386px;
+  max-width: 100%;
 }
 
 .Vörur {
@@ -23,7 +23,7 @@
 }
 
 .Vörur--hlutir {
-  max-width: 405px;
+  max-width: 300px;
   padding: 12px;
   flex-grow: 1;
   display: flex;
@@ -56,7 +56,7 @@
   background-color: white;
   text-align: center;
   display: inline-flex;
-  min-width: 34%;
+  min-width: 40%;
   align-items: center;
   justify-content: center;
 
@@ -75,6 +75,6 @@
 
 #input {
   padding: 10px;
-  min-width: 64%;
+  max-width: 57%;
   border-bottom: solid 2px black;
 }
