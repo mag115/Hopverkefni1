@@ -3,6 +3,16 @@ header {
   background-color: #afb281;
 }
 
+.containerHaus {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .valmynd {
   max-width: 1200px;
   display: flex;
@@ -12,8 +22,8 @@ header {
   justify-content: center;
   align-items:center;
     &__listi {
-      margin-left: 36%;
-      width: 75%;
+      margin-left: 39%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -31,7 +41,7 @@ header {
 .valmynd__karfa {
   display: flex;
   flex-wrap: wrap;
-  width: 56%;
+  width: 64%;
   justify-content: flex-end;
   align-items: center;
   & li {
@@ -45,9 +55,6 @@ header {
   max-width: 20px;
 }
 
-h1 {
-  text-align: center;
-}
 .valmynd__karfa a {
   display: flex;
   align-items: center;
