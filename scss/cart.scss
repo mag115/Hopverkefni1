@@ -42,12 +42,19 @@
 display: flex;
 justify-content: space-between;
 }
+.karfaSida--hlutir--texti--nedri--botn button {
+  width: 110px;
+}
 .Upplysingar{
   margin-top:3%;
 }
 .Upplysingar label {
   font-size: 14px;
   word-wrap: break-word;
+}
+.Upplysingar input {
+  width: 30px;
+  padding-right: 120px;
 }
 .KarfaSida--takki{
   margin: 3%;
