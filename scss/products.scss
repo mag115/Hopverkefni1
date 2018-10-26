@@ -14,6 +14,7 @@
   margin: 10px;
   padding-left: 130px;
   margin-bottom: 50px;
+  max-width: 1200px;
 }
 
 .Vörur--hlutir p {
@@ -22,8 +23,8 @@
 }
 
 .Vörur--hlutir {
-  max-width: 400px;
-  padding: 10px;
+  max-width: 405px;
+  padding: 12px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;

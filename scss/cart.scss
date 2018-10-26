@@ -1,10 +1,15 @@
 @import "scss/config";
+.KarfaSida {
+  display: flex;
+  flex-direction: column;
+}
 .karfa-text-1{
   margin-left: 9%;
 }
 .KarfaSida--hlutir img{
   max-width: 386px;
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 .KarfaSida--hlutir {
   max-width: 400px;
@@ -22,10 +27,9 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  float:right;
+  min-width: 100%;
 }
-.KarfaSida--hlutir--senda{
-  margin-left: 32%;
+/*.KarfaSida--hlutir--senda{
   max-width: 50%;
   padding: 10px;
   flex-grow: 1;
@@ -34,11 +38,16 @@
   justify-content: space-between;
   float:left;
 }
-.KarfaSida--hlutir--greida{
+/*.KarfaSida--hlutir--greida{
   max-width: 50%;
   padding: 10px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+*/
+.Upplysingar {
+  display: flex;
+  justify-content: center;
 }
