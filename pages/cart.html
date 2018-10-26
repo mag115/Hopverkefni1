@@ -32,11 +32,13 @@
       <div class="KarfaSida--hlutir--texti">
       <h2>Ótrúlegt úr</h2>
       <p>Hvað er klukkan? Þetta úr mun svara því hvenær sem er.</p>
-      <p>99.900 kr.-</p>
+      <div class="KarfaSida--hluti--texti--nedri">
+      <h3>99.900 kr.-</h3>
       <div class="fjöldi">
         <label for="fjöldi">Fjöldi:</label>
+        </div>
+        <div class="karfaSida--hlutir--texti--nedri--botn">
         <input type="number" name="nafn" value="1">
-      </div>
       <div class="SetjaTakki">
         <button type="button" name="button"><img id="cart" src="../img/cart.svg" alt="cart">Uppfæra</button>
       </div>
@@ -44,6 +46,8 @@
         <button type="button" name="button"><img id="cart" src="../img/cart.svg" alt="cart">Eyða úr körfu</button>
       </div>
       </div>
+    </div>
+    </div>
     </div>
     <div class="KarfaSida--hlutir">
       <div class="myndir myndir-products">
@@ -52,11 +56,13 @@
       <div class="KarfaSida--hlutir--texti">
       <h2>Hágæða heyrnartól</h2>
       <p>Þú munt ekki heyra neitt nema hágæða tónlist með þessum hágæða heyrnartólum. Höfum við minnst á að þau eru hágæða?</p>
-      <p>39.999 kr.-</p>
+      <div class="KarfaSida--hluti--texti--nedri">
+      <h3>39.999 kr.-</h3>
       <div class="fjöldi">
         <label for="fjöldi">Fjöldi:</label>
-        <input type="number" name="nafn" value="1">
       </div>
+        <div class="karfaSida--hlutir--texti--nedri--botn">
+        <input type="number" name="nafn" value="2">
       <div class="SetjaTakki">
         <button type="button" name="button"><img id="cart" src="../img/cart.svg" alt="cart">Uppfæra</button>
       </div>
@@ -64,10 +70,12 @@
         <button type="button" name="button"><img id="cart" src="../img/cart.svg" alt="cart">Eyða úr körfu</button>
       </div>
     </div>
+    </div>
+  </div>
   </div>
   <div class="Upplysingar">
     <div class="KarfaSida--hlutir--senda">
-    <legend>Sendingar upplýsingar</legend>
+    <h2><legend>Sendingarupplýsingar</legend></h2>
     <div class="Nafn">
       <label for="Nafn">Nafn:</label>
       <input type="text" name="Nafn" value="" required>
@@ -265,7 +273,7 @@
     </div>
   </div>
   <div class="KarfaSida--hlutir--greida">
-  <legend>GreiðsluUpplýsingar</legend>
+  <h2><legend>GreiðsluUpplýsingar</legend></h2>
   <div class="Kortanumer">
     <label for="Kortanumer">Kortanúmer:</label>
     <input type="number" name="Kortanumer" value="">
@@ -303,7 +311,10 @@
 
   </div>
 </div>
-
+</div>
+<div class="KarfaSida--takki">
+  <button type="button" name="botton" class="forsida__botton">Skoða vörur</button>
+</div>
 </nav>
 <footer>
   <nav class="fotur">
