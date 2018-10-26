@@ -3,6 +3,9 @@ header {
   background-color: #afb281;
 }
 
+header h1 {
+  padding: 10px;
+}
 .containerHaus {
   padding: 0;
   margin: 0;
@@ -21,6 +24,8 @@ header {
   width: 100%;
   justify-content: center;
   align-items:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
     &__listi {
       margin-left: 39%;
       width: 100%;
@@ -30,6 +35,12 @@ header {
       list-style: none;
       @media (max-width: 599px) {
         flex-wrap: wrap;
+        margin-left: 0%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
       }
       & li {
         padding: 5px;
@@ -48,6 +59,15 @@ header {
     text-transform: none;
     min-width: 100px;
     align-self: flex-end;
+  }
+  @media (max-width: 799px){
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
   }
 }
 
