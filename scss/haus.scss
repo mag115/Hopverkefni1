@@ -36,6 +36,8 @@ header {
   align-items: center;
   & li {
     text-transform: none;
+    min-width: 100px;
+    align-self: flex-end;
   }
 }
 
@@ -45,4 +47,13 @@ header {
 
 h1 {
   text-align: center;
+}
+.valmynd__karfa a {
+  display: flex;
+  align-items: center;
+}
+
+#cartHaus {
+  position: relative;
+  right: 5px;
 }
