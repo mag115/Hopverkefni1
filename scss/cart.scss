@@ -35,7 +35,7 @@
   min-width: 100%;
 }
 .KarfaSida--hluti--texti--nedri{
-  margin-top: 68%;
+  margin-top: 64%;
 }
 .karfaSida--hlutir--texti--nedri--botn{
   padding: 0px;
@@ -60,7 +60,14 @@ justify-content: space-between;
   margin: 3%;
   margin-left: 43.3%;
 }
-.karfaSida--hlutir--texti--nedri--botn{
+.KarfaSida--takki button:hover {
+  color: #cc9694;
+  background-color: black;
+  transition: 0.3s;
+}
+.karfaSida--hlutir--texti--nedri--botn button:hover{
+  background-color: #cc9694;
+  transition: 0.3s;
 }
 /*.KarfaSida--hlutir--senda{
   max-width: 50%;
@@ -83,4 +90,8 @@ justify-content: space-between;
 .Upplysingar {
   display: flex;
   justify-content: center;
+}
+
+h3 {
+  padding-bottom: 20px;
 }
