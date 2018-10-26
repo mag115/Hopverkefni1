@@ -12,7 +12,7 @@ Hópverkefni í Vefforritun 1 haustið 2018.
 6. npm install lint
 7. npm run sass-watch og þá er verkefnið tilbúið til notkunnar
 
-# verkefnið
+# Verkefnið
 
 Smíðuðum vef eftir froskrift. Verkefnið var unnið í gegnum GitHub. Byrjuðum á að gera haus og fót og fórum svo að gera síðurnar, enduðum á að gera scss skrárnar. Skiptum scss skránum niður í sér skrá fyrir fót, haus, forsíðu, vorusíðu, starfsmannasíðu og körfusíðu. Þessar síður eru svo tengdar við styles.scss skránna sem býr svo til styles.css skrá.
 
